@@ -1,3 +1,3 @@
 # goose
-# A goose
-# what did you expect?
+just a goose
+what did you expect?
