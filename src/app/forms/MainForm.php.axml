@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  <method name="doKeyDownN">
+      <pauseMedia id="player" id-type="object"/>
+    </method>
+  
+  <method name="doKeyDownM">
+      <playMedia id="player" id-type="object"/>
+    </method>
+  <method name="doMediaViewConstruct">
+      <elementLoadContent object="player" object-type="object" path="C:\Program Files (x86)\goose\goose.mp4" path-type="string" sync="" sync-type=""/>
+    </method>
+  </class>
+</root>

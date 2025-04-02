@@ -1,0 +1,30 @@
+{
+  "props": [],
+  "components": {
+    "systemTray": {
+      "type": "script\\SystemTrayScript",
+      "x": 752.0,
+      "y": 384.0,
+      "props": {
+        "visible": "1",
+        "tooltip": "goose",
+        "icon": ".data/img/Снимок экрана 2025-04-02 184123.png",
+        "manualExit": true,
+        "alwaysShowing": true
+      }
+    },
+    "player": {
+      "type": "script\\MediaPlayerScript",
+      "x": 688.0,
+      "y": 384.0,
+      "props": {
+        "loop": true,
+        "autoplay": "1",
+        "volume": 1.0,
+        "balance": "0.0",
+        "rate": 1.0,
+        "view": "mediaView"
+      }
+    }
+  }
+}
